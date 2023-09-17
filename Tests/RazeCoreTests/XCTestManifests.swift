@@ -11,6 +11,7 @@ import XCTest
 public func allTests() -> [XCTestCaseEntry] {
     return [
         testCase(RazeColorTests.allTests),
+        testCasse(RazeNetworkingTests.allTests)
     ]
 }
 #endif
