@@ -1,6 +1,7 @@
-public struct RazeCore {
-    public private(set) var text = "Hello, World!"
+import UIKit
 
-    public init() {
+class RazeCore {
+    class func colorFromHexString(_ hexString: String) -> UIColor {
+        return .red
     }
 }
